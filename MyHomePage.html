@@ -10,42 +10,49 @@
         padding: 2%;
       }
       #column{
-        padding-left: 12%;
+        padding-bottom: 5px;
       }
       #title{
         background-color: yellow;
       }
-      body{
-        background-color: white;
-      }
       .card{
-        padding: 1%;
+        padding: 5%;
+        border-style: solid;
+        border-color: black;
+        width: 18rem;
+      }
+      .btn:hover{
+        background-color: darkblue;
+      }
+
+      .btn:focus{
+        background-color: red;
       }
     </style>
   </head>
   <body>
-    <div id="title" class="container">
+    <div id="title">
       <h1>Language's Virtual Book</h1>
     </div>
     <div class="container">
         <div class="row">
-          <div id="column" class="col-6">
-            <div class="card text-center" style="width: 18rem;">
-              <img src="deutsch_image.png" class="card-img-top" alt="...">
+          <div id="column" class="col-lg-6 col-sm-12">
+            <div class="card text-center container">
+              <img src="deutsch_image.png" class="card-img-top" alt="deutsch">
               <div class="card-body">
                 <h2 class="card-title">Deutsch</h2>
-                <p class="card-text">Aprende aquí</p>
-                <a href="#" class="btn btn-primary">Go there!</a>
+                <p class="card-text">Learn here!</p>
+                <a href="DeutschBook.html" class="btn btn-primary">Go there!</a>
               </div>
             </div>
           </div>
-          <div id="column" class="col-6">
-            <div class="card text-center" style="width: 18rem;">
-              <img src="italian_image.jpg" class="card-img-top" alt="...">
+          <div id="column" class="col-lg-6 col-sm-12">
+            <div class="card text-center container">
+              <img src="italian_image.jpg" class="card-img-top" alt="italian">
               <div class="card-body">
                 <h2 class="card-title">Italian</h2>
-                <p class="card-text">Aprende aquí</p>
-                <a href="#" class="btn btn-primary">Go there!</a>
+                <p class="card-text">Learn here!</p>
+                <a href="ItalianBook.html" target="blank" class="btn btn-primary">Go there!</a>
               </div>
             </div>
           </div>
