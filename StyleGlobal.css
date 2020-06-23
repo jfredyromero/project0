@@ -1,0 +1,53 @@
+h1, h2, h3{
+  color:black;
+  text-align: center;
+  padding: 2%;
+}
+ol, ul{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: table;
+  margin: 0 auto;
+}
+.col-lg-6{
+  padding-bottom: 40px;
+}
+table, th, tr, td{
+  border:2px solid black;
+  padding: 5px;
+}
+th{
+  background-color: lightgray;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+td{
+  padding-left: 10px;
+  padding-right: 10px;
+  color:red;
+}
+tr:hover{
+  background-color: yellow;
+}
+table{
+  margin: auto;
+}
+#column{
+  padding-bottom: 5px;
+}
+#title{
+  background-image: linear-gradient(90deg, black 33%, red 33%, red 66.66%, yellow 66.66%);
+}
+.card{
+  padding: 5%;
+  border-style: solid;
+  border-color: black;
+  width: 18rem;
+}
+.btn:hover{
+  background-color: darkblue;
+  width: 7rem;
+}
+.btn:focus{
+  background-color: red;
+}
