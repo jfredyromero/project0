@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,yGAAK;EACH,KAAK,EAFC,KAAK;;AAKb,MAAM;EACJ,gBAAgB,EAAE,sEAAsE;;AAE1F,gBAAgB;EAEd,OAAO,EAAE,MAAM;;AAEjB,iBAAiB;EAEf,OAAO,EAAE,OAAO;;AAElB,gBAAgB;EAEd,OAAO,EAAE,MAAM;;AAEjB,cAAc;EAEZ,OAAO,EAAE,IAAI;;AAEf,gBAAgB;EAEd,OAAO,EAAE,MAAM;;AAEjB,gBAAgB;EAEd,OAAO,EAAE,MAAM",
+"sources": ["StyleItalian.scss"],
+"names": [],
+"file": "StyleItalian.css"
+}

@@ -1,0 +1,42 @@
+.leben::before, .schreiben::before, .kommen::before {
+  color: black; }
+
+#title {
+  background-image: linear-gradient(90deg, black 33%, red 33%, red 66.66%, yellow 66.66%); }
+
+@media (min-width: 1000px) {
+  .word-bank {
+    display: table;
+    margin: 0 auto; }
+
+  #title {
+    color: black; }
+
+  .col-sm-6 {
+    padding-bottom: 40px; } }
+@media (max-width: 999px) {
+  .word-bank {
+    margin-left: 8rem; }
+
+  #title {
+    color: white; } }
+div[id="table-defined-articles"] .masculino::before {
+  content: "der ";
+  color: #230F89; }
+div[id="table-defined-articles"] .neutro::before {
+  content: "das ";
+  color: #14800B; }
+div[id="table-defined-articles"] .femenino::before {
+  content: "die ";
+  color: #DF00FE; }
+
+.leben::before {
+  content: "leb"; }
+
+.schreiben::before {
+  content: "schreib"; }
+
+.kommen::before {
+  content: "komm"; }
+
+/*# sourceMappingURL=StyleDeutsch.css.map */

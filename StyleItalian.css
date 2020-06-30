@@ -1,0 +1,25 @@
+.parlare::before, .prendere::before, .partire::before, .amare::before, .leggere::before, .sentire::before {
+  color: black; }
+
+#title {
+  background-image: linear-gradient(90deg, green 33%, white 33%, white 66.66%, red 66.66%); }
+
+.parlare::before {
+  content: "parl"; }
+
+.prendere::before {
+  content: "prend"; }
+
+.partire::before {
+  content: "part"; }
+
+.amare::before {
+  content: "am"; }
+
+.leggere::before {
+  content: "legg"; }
+
+.sentire::before {
+  content: "sent"; }
+
+/*# sourceMappingURL=StyleItalian.css.map */
