@@ -1,29 +1,32 @@
 $color: black;
+%root{
+  color: $color;
+}
 
 #title{
   background-image: linear-gradient(90deg, green 33%, white 33%, white 66.66%, red 66.66%);
 }
 .parlare::before{
+  @extend %root;
   content: "parl";
-  color: $color;
 }
 .prendere::before{
+  @extend %root;
   content: "prend";
-  color: $color;
 }
 .partire::before{
+  @extend %root;
   content: "part";
-  color: $color;
 }
 .amare::before{
+  @extend %root;
   content: "am";
-  color: $color;
 }
 .leggere::before{
+  @extend %root;
   content: "legg";
-  color: $color;
 }
 .sentire::before{
+  @extend %root;
   content: "sent";
-  color: $color;
 }
