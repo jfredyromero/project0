@@ -1,0 +1,44 @@
+#title{
+  background-image: linear-gradient(90deg, black 33%, red 33%, red 66.66%, yellow 66.66%);
+}
+@media(min-width:1000px){
+  .word-bank{
+    display: table;
+    margin: 0 auto;
+  }
+  div[id="title"]{
+    color: black;
+  }
+}
+@media(max-width:999px){
+  .word-bank{
+    margin-left: 8rem;
+  }
+  div[id="title"]{
+    color: white;
+  }
+}
+.masculino::before{
+  content: "der ";
+  color: #230F89;
+}
+.neutro::before{
+  content: "das ";
+  color: #14800B;
+}
+.femenino::before{
+  content: "die ";
+  color: #DF00FE;
+}
+.leben::before{
+  content: "leb";
+  color: black;
+}
+.schreiben::before{
+  content: "schreib";
+  color: black;
+}
+.kommen::before{
+  content: "komm";
+  color: black;
+}
