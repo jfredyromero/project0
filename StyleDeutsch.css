@@ -20,13 +20,13 @@
 
   #title {
     color: white; } }
-div[id="table-defined-articles"] .masculino::before {
+div[id="table-defined-articles"] .masculino::before, ul .masculino::before {
   content: "der ";
   color: #230F89; }
-div[id="table-defined-articles"] .neutro::before {
+div[id="table-defined-articles"] .neutro::before, ul .neutro::before {
   content: "das ";
   color: #14800B; }
-div[id="table-defined-articles"] .femenino::before {
+div[id="table-defined-articles"] .femenino::before, ul .femenino::before {
   content: "die ";
   color: #DF00FE; }
 
