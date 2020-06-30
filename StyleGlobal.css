@@ -25,13 +25,21 @@ th{
 td{
   padding-left: 10px;
   padding-right: 10px;
-  color:red;
 }
 tr:hover{
   background-color: yellow;
 }
 table{
   margin: 0 auto;
+}
+div[id="table-continuous-present"] td{
+  color: red;
+}
+div[id="table-imperfect-tense"] td{
+  color: red;
+}
+tr > td[class="pronouns"]{
+  color: black;
 }
 #home-page-title{
   background-color: yellow;
